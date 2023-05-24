@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-1</title>
+</head>
+<style>
+    .grid-container {
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        background-color: #2196F3;
+        padding: 10px;
+    }
+
+    .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        grid-gap: 20px;
+    }
+    img {
+        width: 200px;
+    }
+</style>
+<body>
+    <div class="center">
+        <h2>Own CDN Server Perfomance Testing With Video</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="./img/IMG_5540.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="./img/IMG_5541.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="./img/IMG_5542.jpg">
+            </div>
+            <div class="grid-item">
+                <img src="./img/IMG_5543.jpg">
+            </div>
+        </div>
+        <button>
+            <a href="page2.html">next page</a>
+        </button>
+    </div>
+</body>
+</html>
